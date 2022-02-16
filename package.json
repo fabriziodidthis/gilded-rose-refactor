@@ -1,0 +1,9 @@
+{
+  "name": "gilded-rose-refactor",
+  "version": "1.0.0",
+  "description": "Gilded Rose refactoring test",
+  "main": "index.js",
+  "repository": "https://github.com/fabriziodidthis/gilded-rose-refactor.git",
+  "author": "Fabrizio Andre",
+  "license": "MIT"
+}
