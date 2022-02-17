@@ -8,7 +8,6 @@
     "url": "https://github.com/fabriziodidthis/gilded-rose-refactor.git"
   },
   "author": "Fabrizio Andre",
-  "email": "",
   "license": "MIT",
   "devDependencies": {
     "jest": "^27.5.1"
