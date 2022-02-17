@@ -14,12 +14,15 @@
   "license": "MIT",
   "devDependencies": {
     "husky": "^7.0.0",
+    "jasmine-browser-runner": "^1.0.0",
+    "jasmine-core": "^4.0.0",
     "jest": "^27.5.1",
     "lint-staged": "^12.3.4",
     "standard": "^16.0.4"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "jasmine":"jasmine-browser-runner runSpecs"
   },
   "lint-staged": {
     "*.js": [
