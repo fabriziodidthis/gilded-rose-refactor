@@ -7,11 +7,15 @@
     "type": "git",
     "url": "https://github.com/fabriziodidthis/gilded-rose-refactor.git"
   },
-  "author": "Fabrizio Andre",
+  "author": {
+    "name": "Fabrizio Andre",
+    "email": "fabrizio.andre@globant.com"
+  },
   "license": "MIT",
   "devDependencies": {
-    "husky": "^7.0.4",
+    "husky": "^7.0.0",
     "jest": "^27.5.1",
+    "lint-staged": "^12.3.4",
     "standard": "^16.0.4"
   },
   "scripts": {
@@ -19,7 +23,8 @@
   },
   "lint-staged": {
     "*.js": [
-      "standard"
+      "standard --fix",
+      "git add"
     ]
   },
   "husky": {
