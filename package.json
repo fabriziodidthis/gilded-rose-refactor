@@ -10,7 +10,8 @@
   "author": "Fabrizio Andre",
   "license": "MIT",
   "devDependencies": {
-    "jest": "^27.5.1"
+    "jest": "^27.5.1",
+    "standard": "^16.0.4"
   },
   "scripts": {
     "test": "jest"
@@ -20,7 +21,7 @@
       "standard"
     ]
   },
-  "husky":{
+  "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
     }
