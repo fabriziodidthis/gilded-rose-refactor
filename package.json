@@ -16,6 +16,9 @@
   "scripts": {
     "test": "jest"
   },
+  "lint-staged":{
+    "*.js": ["standard"]
+  },
   "keywords": [
     "Gilden Rose",
     "Refactoring"
