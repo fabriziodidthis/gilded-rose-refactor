@@ -3,13 +3,21 @@
   "version": "1.0.0",
   "description": "Gilded Rose refactoring test",
   "main": "index.js",
-  "repository": "https://github.com/fabriziodidthis/gilded-rose-refactor.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabriziodidthis/gilded-rose-refactor.git"
+  },
   "author": "Fabrizio Andre",
+  "email":"",
   "license": "MIT",
   "devDependencies": {
     "jest": "^27.5.1"
   },
   "scripts": {
     "test": "jest"
-  }
+  },
+  "keywords": [
+    "Gilden Rose",
+    "Refactoring"
+  ]
 }
