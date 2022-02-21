@@ -8,7 +8,7 @@ const StandardItem = require('./StandardItem')
 */
 
 class Backstage extends StandardItem {
-  _calculateItemDepreciation () {
+  calculateItemDepreciation () {
     switch (true) {
       case this.sellIn <= 0:
         return this.quality

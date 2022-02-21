@@ -2,12 +2,12 @@ const { describe, expect, test } = require('@jest/globals')
 const StandardItem = require('../src/StandardItem')
 
 describe('StandardItem test suite', () => {
-  test('reduces the \'sellIn\' value by 1 when item is due for tomorrow', () => {
+  test('reduces the \'sellIn\' value by 1 when item its expired date is tomorrow', () => {
     const item = new StandardItem('cheese', 2, 0)
     expect(item.itemForTomorrow().sellIn).toEqual(1)
   })
-  test('should reduce an item quality value until reach 0', () => {
-    const item = new StandardItem('cheese', 2, 0)
+  test('should reduce an item quality value up to 0', () => {
+    const item = new StandardItem('cheese', 3, 0)
     expect(item.itemForTomorrow().quality).toBe(0)
   })
 
