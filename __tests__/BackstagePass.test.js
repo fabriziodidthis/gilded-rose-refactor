@@ -27,7 +27,7 @@ describe('Backstage Pass testing suite', () => {
     expect(item.itemForTomorrow().quality).toEqual(0)
   })
 
-  test('should set 0 for quality value when sellIn value is 0', () => {
+  test('should set 0 for quality value when sellIn value is less than 0', () => {
     const item = new Backstage('bow', -2, 9)
     expect(item.itemForTomorrow().quality).toEqual(0)
   })
