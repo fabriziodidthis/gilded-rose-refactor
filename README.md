@@ -33,12 +33,12 @@ or
 
 Done list
 
-[:white_check_mark:] AgedBrie & tests
-[:white_check_mark:] Backstage Pass & tests
-[:white_check_mark:] Conjured items & tests
-[:white_check_mark:] Shop (tests missing)
-[:white_check_mark:] Standard items & tests
-[:white_check_mark:] Sulfuras & tests
+[:white_check_mark:] AgedBrie & tests <br>
+[:white_check_mark:] Backstage Pass & tests <br>
+[:white_check_mark:] Conjured items & tests <br>
+[:white_check_mark:] Shop (tests missing) <br>
+[:white_check_mark:] Standard items & tests <br>
+[:white_check_mark:] Sulfuras & tests <br>
 
 To do list
 
